@@ -23,16 +23,16 @@ mvn clean spring-boot:run
     - method: get
     - parameters：
     - result：Hello,{name}
-    - example: curl http://<server>:8080/
+    - example: curl http://\<server>:8080/
 1. plus
     - path：/plus
     - method：get
     - parameters： [double]x、[double]y
     - result：x+y
-    - example: curl http://<server>:8080/plus?x=10&y=8
+    - example: curl http://\<server>:8080/plus?x=10&y=8
 1. minus
     - path：/minus
     - method：get
     - parameters： [double]x、[double]y
     - result：x-y
-    - example: curl http://<server>:8080/minus?x=10&y=8
+    - example: curl http://\<server>:8080/minus?x=10&y=8
